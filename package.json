@@ -1,0 +1,28 @@
+{
+  "name": "autobase_understand",
+  "main": "index_lejeune_3.js",
+  "pear": {
+    "name": "autobase_understand",
+    "type": "terminal"
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0"
+  },
+  "dependencies": {
+    "autobase": "^7.7.0",
+    "autobase-test-helpers": "^3.1.0",
+    "b4a": "^1.6.7",
+    "bare-process": "^4.2.1",
+    "compact-encoding": "^2.16.1",
+    "corestore": "^7.4.4",
+    "hyperbee": "^2.24.2",
+    "hyperswarm": "^4.11.7"
+  }
+}
