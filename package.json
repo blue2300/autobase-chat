@@ -1,8 +1,8 @@
 {
-  "name": "autobase_understand",
-  "main": "index_lejeune_3.js",
+  "name": "autobase_chat",
+  "main": "index.js",
   "pear": {
-    "name": "autobase_understand",
+    "name": "autobase_chat",
     "type": "terminal"
   },
   "type": "module",
